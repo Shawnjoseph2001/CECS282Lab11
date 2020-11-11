@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shawn/Documents/GitHub/CECS282Lab11/CECS282Lab11/main.cpp
+iostream
+-
+iostream
+-
+vector
+-
+set
+-
+
