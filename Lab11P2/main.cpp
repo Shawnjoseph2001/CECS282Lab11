@@ -16,9 +16,9 @@ int main()
     {
         cout << *p1 << " ";
     }
-    cout << endl << *(p1 - 1) << endl; // Display the element before p1
-    cout << *(p1 - 3) << endl; // Display the third element before p1
-    cout << *(intVector.end() - 3) << endl; // Display the third element from the end
+    cout << endl << *(p1 - 2) << endl; // Display the element before p1
+    cout << *(p1 - 4) << endl; // Display the third element before p1
+    cout << *(intVector.end() - 4) << endl; // Display the third element from the end
     *p1 = 1234;
     cout << *p1 << endl;
     return 0;
